@@ -1,0 +1,13 @@
+names:
+- chicken
+- person
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: detect-chicken
+  url: https://universe.roboflow.com/wru/detect-chicken/dataset/3
+  version: 3
+  workspace: wru
+test: ../test/images
+train: Detect-chicken-3/train/images
+val: Detect-chicken-3/valid/images
